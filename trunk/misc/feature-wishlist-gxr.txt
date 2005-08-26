@@ -1,0 +1,45 @@
+-) allow arbitrary data-types for flashcards. (movie as question...)
+
+-) allow different backends (sql-server, textfile, ...)
+
+-) allow different frontends 
+
+-) different visualizations (of learning progress, ...)
+
+-) allow learning sessions of user-defined length
+
+-) provide a learning-assistant which recommends learning sessions of optimal
+length at the correct time
+
+-) add little agents for different operating environments (unix, console, X,
+  windows, mac-os (?)) that allow for a perfect integration of the lit into
+  the working environment that you're used to. (i.e. for all your outlook-users:
+  an agent should find appointments in your calendar for learning sessions)
+  (a simpler agent could just stay in the kpanel, and tell the user once in a
+   while that it's time for revising XYZ)
+
+-) provide at least one standalone-client that users can simply download and use
+   without the need for configuration, etc. 
+   Think up some intelligent architecture to support this. 
+   provide client-server capability, so that central flashcard-servers can
+   become possible
+
+-) thus client-server, frontend-backend structure.
+
+-) frontends should be speedy. The application MUST NOT appear clumsy, slow,
+  bloated
+
+-) networking-support. Clients should be able to learn flashcards from central
+servers.
+
+-) store user profiles on servers, so that simple clients become possible, which
+know nothing about a user (learning history, etc.) except a
+user/pass-combination
+
+-) still allow powerful clients that know about their user and don't need
+server(or, more accurately, backend)-stored information. 
+
+-) provide embedded-system-clients
+
+-) thus handle flahscard-data and user-data seperately. 
+
